@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tạo Mật Khẩu Mạnh 2025",
   "description": "Tạo mật khẩu mạnh bao gồm viết hoa, viết thường, số, ký tự đặc biệt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Bin.Late",
   "action": {
     "default_title": "Tạo Mật Khẩu Mạnh 2025",

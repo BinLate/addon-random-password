@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Tạo Mật Khẩu Mạnh 2025</title>
+	<link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+	<div class="container">
+		<h1 class="title">Tạo Mật Khẩu Mạnh 2025</h1>
+		<div class="row">
+			<label for="length">Độ dài: <span id="lengthValue">16</span></label>
+			<input id="length" type="range" min="8" max="64" value="16" />
+		</div>
+		<div class="row grid">
+			<label><input id="upper" type="checkbox" checked /> Chữ hoa (A-Z)</label>
+			<label><input id="lower" type="checkbox" checked /> Chữ thường (a-z)</label>
+			<label><input id="digits" type="checkbox" checked /> Số (0-9)</label>
+			<label><input id="special" type="checkbox" checked /> Ký tự đặc biệt (!@#...)</label>
+			<label><input id="excludeAmbiguous" type="checkbox" checked /> Loại ký tự dễ nhầm (O,0,l,1...)</label>
+		</div>
+		<div class="row actions">
+			<button id="generate">Tạo</button>
+			<button id="copy">Sao chép</button>
+		</div>
+		<input id="output" class="output" type="text" readonly placeholder="Mật khẩu sẽ hiển thị ở đây" />
+		<div id="message" class="message" role="status" aria-live="polite"></div>
+	</div>
+	<script type="module" src="popup.js"></script>
+</body>
+</html>
+
+
+
